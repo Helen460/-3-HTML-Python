@@ -1,0 +1,61 @@
+body {
+    background: white        
+}
+p.first {
+    color: white;
+    background-color: green;
+    border: 20px solid powderblue;
+    width: 500px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 40px;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    user-select: none;
+    
+}
+p.second {
+    position: relative;
+    top: -652px;
+    left: 700px;
+    color: white;
+    background-color: green;
+    border: 20px solid powderblue;
+    width: 500px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 40px;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    user-select: none;
+}
+p.third {
+    position: relative;
+    top: -652px;
+    left: 700px;
+    color: white;
+    background-color: red;
+    border: 20px solid powderblue;
+    width: 500px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 40px;
+    font-family:  Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    user-select: none;
+}
+p.first:hover {background-color:lightgrey;}
+p.second:hover {background-color:lightgrey;}
+p.third:hover {background-color:lightgrey;}
+
+p.first:active {background-color: pink;}
+p.second:active {background-color: pink;}
+p.third:active {background-color: pink;}
